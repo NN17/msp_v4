@@ -1,0 +1,181 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:03
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 30px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-arrows-in-different-directions-pointing-to-businessman:before { content: "\f100"; }
+.flaticon-balancing-between-cogwheel-and-businessman:before { content: "\f101"; }
+.flaticon-best-businessman-team-of-three:before { content: "\f102"; }
+.flaticon-black-and-white-shaking-hands:before { content: "\f103"; }
+.flaticon-books-arranged-vertically:before { content: "\f104"; }
+.flaticon-business-contacts-on-spring-address-book:before { content: "\f105"; }
+.flaticon-business-leader-holding-magnifying-glass-with-other-workers-on-background:before { content: "\f106"; }
+.flaticon-business-links-between-businessmen:before { content: "\f107"; }
+.flaticon-business-male-team:before { content: "\f108"; }
+.flaticon-businessman-close-up-with-a-recognition-medal:before { content: "\f109"; }
+.flaticon-businessman-discussing-a-business-report:before { content: "\f10a"; }
+.flaticon-businessman-discussing-a-progress-report:before { content: "\f10b"; }
+.flaticon-businessman-having-a-connection:before { content: "\f10c"; }
+.flaticon-businessman-in-apresentation-with-a-graphic-on-a-board:before { content: "\f10d"; }
+.flaticon-businessman-in-tie-with-alarm-clock:before { content: "\f10e"; }
+.flaticon-businessman-information:before { content: "\f10f"; }
+.flaticon-businessman-linked-to-money-and-time:before { content: "\f110"; }
+.flaticon-businessman-links:before { content: "\f111"; }
+.flaticon-businessman-paper-of-the-application-for-a-job:before { content: "\f112"; }
+.flaticon-businessman-personal-data-paper:before { content: "\f113"; }
+.flaticon-businessman-portrait-magnification-button-for-interface:before { content: "\f114"; }
+.flaticon-businessman-presenting-a-discussion-with-circular-target-symbol:before { content: "\f115"; }
+.flaticon-businessman-running-with-his-suitcase:before { content: "\f116"; }
+.flaticon-businessman-showing-calculator:before { content: "\f117"; }
+.flaticon-businessman-standing-beside-a-drawer:before { content: "\f118"; }
+.flaticon-businessman-standing-inside-a-light-bulb:before { content: "\f119"; }
+.flaticon-businessman-standing-with-a-suitcase:before { content: "\f11a"; }
+.flaticon-businessman-talking-about-money:before { content: "\f11b"; }
+.flaticon-businessman-tasks-items-list:before { content: "\f11c"; }
+.flaticon-businessman-uploading-data-to-the-cloud:before { content: "\f11d"; }
+.flaticon-businessman-wearing-tie-connected-to-links:before { content: "\f11e"; }
+.flaticon-businessman-wearing-tie-with-exclamation-mark:before { content: "\f11f"; }
+.flaticon-businessman-with-a-calculator:before { content: "\f120"; }
+.flaticon-businessman-with-a-phone:before { content: "\f121"; }
+.flaticon-businessman-with-an-ascendant-business-graph-of-bars:before { content: "\f122"; }
+.flaticon-businessman-with-an-idea:before { content: "\f123"; }
+.flaticon-businessman-with-bars-stocks-graphic:before { content: "\f124"; }
+.flaticon-businessman-with-dollar-coin-stacks:before { content: "\f125"; }
+.flaticon-businessman-with-down-arrow-and-bar-graph:before { content: "\f126"; }
+.flaticon-businessman-with-speech-balloons:before { content: "\f127"; }
+.flaticon-businessman-with-suitcase-going-to-work-in-a-city:before { content: "\f128"; }
+.flaticon-businessman-with-suitcase-opening-door:before { content: "\f129"; }
+.flaticon-businessman-with-suitcase-with-dollar-symbol-and-arrow-up:before { content: "\f12a"; }
+.flaticon-businessman-with-umbrella:before { content: "\f12b"; }
+.flaticon-businessmen-connections:before { content: "\f12c"; }
+.flaticon-businessmen-having-a-group-conference:before { content: "\f12d"; }
+.flaticon-businessmen-having-a-meeting:before { content: "\f12e"; }
+.flaticon-businessmen-talking-in-business-meeting:before { content: "\f12f"; }
+.flaticon-businessmen-team-behind-a-desktop:before { content: "\f130"; }
+.flaticon-businessmen-team-working-with-time:before { content: "\f131"; }
+.flaticon-cake-in-pieces-or-business-circular-pie-graphic-of-percentages:before { content: "\f132"; }
+.flaticon-carnet:before { content: "\f133"; }
+.flaticon-certificate-variant-with-image:before { content: "\f134"; }
+.flaticon-cheers-for-businessmen-team-group:before { content: "\f135"; }
+.flaticon-chief-sitting-behind-a-desktop:before { content: "\f136"; }
+.flaticon-city-information-button-for-interface:before { content: "\f137"; }
+.flaticon-cogwheels-variant-with-wrench-tool:before { content: "\f138"; }
+.flaticon-coins-stacks-with-arrow-upwards:before { content: "\f139"; }
+.flaticon-connection-of-businessmen:before { content: "\f13a"; }
+.flaticon-daily-calendar-page-in-day-1:before { content: "\f13b"; }
+.flaticon-delete-contact-symbol-for-interface:before { content: "\f13c"; }
+.flaticon-demographics-of-a-population:before { content: "\f13d"; }
+.flaticon-desktop-computer-screen-with-rising-graph:before { content: "\f13e"; }
+.flaticon-document-settings:before { content: "\f13f"; }
+.flaticon-dollar-coin:before { content: "\f140"; }
+.flaticon-dollar-sign-outline-with-arrows-pointing-to-left-and-right:before { content: "\f141"; }
+.flaticon-dollar-sign-with-rotating-arrows:before { content: "\f142"; }
+.flaticon-dollar-symbol-inside-a-light-bulb:before { content: "\f143"; }
+.flaticon-earth-grid-with-a-pointer-arrow:before { content: "\f144"; }
+.flaticon-employee-near-office-table-with-calendar-and-piles-of-work:before { content: "\f145"; }
+.flaticon-file-search:before { content: "\f146"; }
+.flaticon-folder-with-clock:before { content: "\f147"; }
+.flaticon-globe-sphere-graph-with-dollar-sign:before { content: "\f148"; }
+.flaticon-graduate-man-silhouette:before { content: "\f149"; }
+.flaticon-group-of-businessmen:before { content: "\f14a"; }
+.flaticon-handbags-different-couple:before { content: "\f14b"; }
+.flaticon-head-with-members-hierarchy:before { content: "\f14c"; }
+.flaticon-highest-earners-in-business:before { content: "\f14d"; }
+.flaticon-human-group-with-questions-and-doubts:before { content: "\f14e"; }
+.flaticon-human-head-silhouette-with-cogwheels:before { content: "\f14f"; }
+.flaticon-human-head-with-a-question-mark-inside:before { content: "\f150"; }
+.flaticon-human-linked-to-cogwheel-and-graphs:before { content: "\f151"; }
+.flaticon-human-links-with-dollar-currency:before { content: "\f152"; }
+.flaticon-human-power:before { content: "\f153"; }
+.flaticon-human-resources-data-of-job-performance:before { content: "\f154"; }
+.flaticon-human-salutation-in-front-of-a-world-sphere:before { content: "\f155"; }
+.flaticon-human-speaking-on-a-stand:before { content: "\f156"; }
+.flaticon-human-target:before { content: "\f157"; }
+.flaticon-incomes-control:before { content: "\f158"; }
+.flaticon-international-businessman:before { content: "\f159"; }
+.flaticon-leadership:before { content: "\f15a"; }
+.flaticon-legal-document-with-valid-period:before { content: "\f15b"; }
+.flaticon-magnifying-glass-on-a-rising-bar-graph:before { content: "\f15c"; }
+.flaticon-magnifying-glass-with-arrow-raising-upward:before { content: "\f15d"; }
+.flaticon-male-employees-in-front-of-computers:before { content: "\f15e"; }
+.flaticon-male-head-side-view-with-cogwheels-thinking-about-dollar-symbol:before { content: "\f15f"; }
+.flaticon-male-human-group-of-men-with-ties:before { content: "\f160"; }
+.flaticon-male-pushing-cart-with-suitcase-of-dollars:before { content: "\f161"; }
+.flaticon-male-side-view-silhouette-with-candle:before { content: "\f162"; }
+.flaticon-male-silhouette-holding-wrench:before { content: "\f163"; }
+.flaticon-male-worker-behind-a-desk:before { content: "\f164"; }
+.flaticon-male-worker-with-speech-balloon:before { content: "\f165"; }
+.flaticon-man-and-big-tooth-silhouette:before { content: "\f166"; }
+.flaticon-man-climbing-stairs:before { content: "\f167"; }
+.flaticon-man-close-up-with-a-pencil:before { content: "\f168"; }
+.flaticon-man-holding-shopping-basket:before { content: "\f169"; }
+.flaticon-man-in-a-presentation-of-business:before { content: "\f16a"; }
+.flaticon-man-in-business-attire-with-three-stars-outline:before { content: "\f16b"; }
+.flaticon-man-listening-the-sound-of-a-speaker:before { content: "\f16c"; }
+.flaticon-man-pushing-a-shopping-cart:before { content: "\f16d"; }
+.flaticon-man-standing-rising-a-flag-in-his-right-hand:before { content: "\f16e"; }
+.flaticon-man-standing-with-ascendant-and-descendant-arrows-couple:before { content: "\f16f"; }
+.flaticon-man-standing-with-extended-arms-pointing-at-both-sides-with-arrows-shape:before { content: "\f170"; }
+.flaticon-man-walking-talking-by-a-speaker:before { content: "\f171"; }
+.flaticon-man-wearing-business-attire-with-suitcase-in-a-city:before { content: "\f172"; }
+.flaticon-man-with-two-objects-in-his-hands-looking-like-a-human-balanced-scale:before { content: "\f173"; }
+.flaticon-meeting-of-a-couple-of-men:before { content: "\f174"; }
+.flaticon-men-wearing-business-attire-having-communication:before { content: "\f175"; }
+.flaticon-money-incomes-for-a-businessman:before { content: "\f176"; }
+.flaticon-office-work-with-time:before { content: "\f177"; }
+.flaticon-office-worker:before { content: "\f178"; }
+.flaticon-personal-configuration:before { content: "\f179"; }
+.flaticon-personal-data-visualization-in-a-laptop-monitor:before { content: "\f17a"; }
+.flaticon-personal-mail:before { content: "\f17b"; }
+.flaticon-phone-call-with-volume-bars-on-a-cellphone:before { content: "\f17c"; }
+.flaticon-phone-calls-configuration:before { content: "\f17d"; }
+.flaticon-placeholder-locator-with-businessman-image:before { content: "\f17e"; }
+.flaticon-police:before { content: "\f17f"; }
+.flaticon-professional-presenting-a-report:before { content: "\f180"; }
+.flaticon-professional-profile-with-image:before { content: "\f181"; }
+.flaticon-salute-of-hand-of-different-human-races-of-the-world:before { content: "\f182"; }
+.flaticon-search-configuration-interface-symbol:before { content: "\f183"; }
+.flaticon-search-user-wearing-tie:before { content: "\f184"; }
+.flaticon-security-man:before { content: "\f185"; }
+.flaticon-skyscraper-buildings-linked-to-connectors:before { content: "\f186"; }
+.flaticon-speedometer-with-businessman-image:before { content: "\f187"; }
+.flaticon-suitcase-with-white-details:before { content: "\f188"; }
+.flaticon-tablet-gadget-with-profile:before { content: "\f189"; }
+.flaticon-talk-of-a-couple-of-businessmen-standing-with-suitcases:before { content: "\f18a"; }
+.flaticon-three-candidates:before { content: "\f18b"; }
+.flaticon-three-cogwheels-linked-by-lines-in-triangular-shape:before { content: "\f18c"; }
+.flaticon-two-businessmen-under-a-cogwheel-symbol:before { content: "\f18d"; }
+.flaticon-two-stick-man-variants-shaking-hands:before { content: "\f18e"; }
+.flaticon-verified-contact:before { content: "\f18f"; }
+.flaticon-woman-shape-in-a-cogwheel:before { content: "\f190"; }
+.flaticon-worker-and-rectangular-objects:before { content: "\f191"; }
+.flaticon-worker-image-on-card:before { content: "\f192"; }
+.flaticon-worker-in-front-of-a-computer-monitor:before { content: "\f193"; }
+.flaticon-working-team:before { content: "\f194"; }
+.flaticon-writing-a-document-with-a-pencil:before { content: "\f195"; }
