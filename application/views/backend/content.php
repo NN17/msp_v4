@@ -1,4 +1,4 @@
-<div>
+<div class="container py-5">
 
 <!-- <h3 class="text-info"><?=$linkStructure['name']?></h3>
 <hr/> -->
@@ -34,11 +34,13 @@
 				<div class="col-md-8 py-3">
 					<h4><?=$contentData['title']?></h4>
 					<?=$contentData['summary']?>
-					<br/><a href="ignite/contentView/<?=$contentData['Id']?>" class="btn btn-info mt-5">Read More... >></a>
-					<?php if($contentData['showDate']):?>
-						<p class="text-right">
-							<small><i>Published at : <?=date('d-m-Y', $contentData['publishedDate'])?></i></small>
-						</p>
+					<div class="readMore">
+						<a href="ignite/contentView/<?=$contentData['Id']?>" class="btn btn-info mt-5">Read More... <i class="fa fa-chevron-circle-right"></i></a>
+						<?php if($contentData['showDate']):?>
+							<p class="text-right">
+								<small><i>Published at : <?=date('d-m-Y', $contentData['publishedDate'])?></i></small>
+							</p>
+						</div>
 					<?php endif; ?>
 				</div>
 			</div>

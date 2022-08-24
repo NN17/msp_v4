@@ -356,7 +356,7 @@ class Ignite extends CI_Controller {
 		// loading Ckeditor ..
 		$this->load->library('CKEditor');
 		
-		$this->ckeditor->basePath = base_url().'asset/ckeditor/';
+		$this->ckeditor->basePath = base_url().'assets/ckeditor/';
 		$this->ckeditor->config['toolbar'] =  'Full';
 		$this->ckeditor->config['language'] = 'en';
 		$this->ckeditor->config['font_style'] = 'myanmar';
@@ -409,7 +409,7 @@ class Ignite extends CI_Controller {
 		// loading Ckeditor ..
 		$this->load->library('CKEditor');
 		
-		$this->ckeditor->basePath = base_url().'asset/ckeditor/';
+		$this->ckeditor->basePath = base_url().'assets/ckeditor/';
 		$this->ckeditor->config['toolbar'] =  'Full';
 		$this->ckeditor->config['language'] = 'en';
 		$this->ckeditor->config['font_style'] = 'myanmar';
@@ -481,7 +481,7 @@ class Ignite extends CI_Controller {
 		$this->db->where('Id',$blockId);
 		$this->db->update('blocks_tbl',$update_block);
 
-		redirect('ignite/previewCarousel/'.$carouselId);
+		redirect('preview-carousel/'.$carouselId);
 	}
 
 	public function previewCarousel(){
@@ -650,7 +650,7 @@ class Ignite extends CI_Controller {
 		$data['link'] = 'ignite/addCarouselImg';
 		$carouselId = $this->uri->segment(3);
 
-		$file = $this->main_model->upload_img('carouselImg','asset/upload_img');
+		$file = $this->main_model->upload_img('carouselImg','assets/upload_img');
 		if($file != false){
 			$insert = array(
 				'path' => $file,
@@ -679,6 +679,7 @@ class Ignite extends CI_Controller {
 	}
 
 	public function updateCarouselImg(){
+		$data['title'] = 'Edit Carousel Image';
 		$imageId = $this->uri->segment(3);
 		$carouselId = $this->uri->segment(4);
 		$data['image'] = $this->main_model->get_limit_data('carousel_img_tbl','Id',$imageId)->row_array();
@@ -688,20 +689,20 @@ class Ignite extends CI_Controller {
 			unlink($image['path']);
 		}
 
-		$file = $this->main_model->upload_img('carouselImg','asset/upload_img');
+		$file = $this->main_model->upload_img('carouselImg','assets/upload_img');
 		if($file != false){
 			$update = array(
 				'path' => $file
 				);
 			$this->db->where('Id',$imageId);
 			$this->db->update('carousel_img_tbl',$update);
-			redirect('ignite/previewCarousel/'.$carouselId);
+			redirect('preview-carousel/'.$carouselId);
 		}
 			else{
 				$data['carousel'] = $this->main_model->get_limit_data('carousel_tbl','Id',$carouselId)->row_array();
 				$data['err_msg'] = 'Error : Your upload Image exceed the maximum size of limit';
 				$data['content'] = 'backend/editCarouselImg';
-				$this->load->view('template_back',$data);
+				$this->load->view('layouts/template_back',$data);
 			}
 	}
 
@@ -780,7 +781,7 @@ class Ignite extends CI_Controller {
 		// loading Ckeditor ..
 		$this->load->library('CKEditor');
 		
-		$this->ckeditor->basePath = base_url().'asset/ckeditor/';
+		$this->ckeditor->basePath = base_url().'assets/ckeditor/';
 		$this->ckeditor->config['toolbar'] =  'Full';
 		$this->ckeditor->config['language'] = 'en';
 		$this->ckeditor->config['font_style'] = 'myanmar';
@@ -829,11 +830,11 @@ class Ignite extends CI_Controller {
 	}
 
 	public function upload_img(){
-		$file = $this->main_model->upload_file_img('userfile','asset/upload_img');
+		$file = $this->main_model->upload_file_img('userfile','assets/upload_img');
 		if($file != false){
 			$insert = array(
 				'name' => $file,
-				'path' => 'asset/upload_img/'.$file				
+				'path' => 'assets/upload_img/'.$file				
 			);
 			$this->db->insert('upload_img_tbl',$insert);
 			redirect('ignite/imageBrowse');
@@ -1059,7 +1060,7 @@ class Ignite extends CI_Controller {
 		// loading Ckeditor ..
 		$this->load->library('CKEditor');
 		
-		$this->ckeditor->basePath = base_url().'asset/ckeditor/';
+		$this->ckeditor->basePath = base_url().'assets/ckeditor/';
 		$this->ckeditor->config['toolbar'] =  'Full';
 		$this->ckeditor->config['language'] = 'en';
 		$this->ckeditor->config['font_style'] = 'myanmar';
@@ -1188,7 +1189,7 @@ class Ignite extends CI_Controller {
 		// loading Ckeditor ..
 		$this->load->library('CKEditor');
 		
-		$this->ckeditor->basePath = base_url().'asset/ckeditor/';
+		$this->ckeditor->basePath = base_url().'assets/ckeditor/';
 		$this->ckeditor->config['toolbar'] =  'Full';
 		$this->ckeditor->config['language'] = 'en';
 		$this->ckeditor->config['font_style'] = 'myanmar';

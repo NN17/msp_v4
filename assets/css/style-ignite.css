@@ -161,10 +161,13 @@ header img{
 }
 
 .footer-first{
-	background: #EF9D23;
-	color: #333;
+	background: url('../../assets/system_img/footer_back.jpg');
+	color: #fff;
 	line-height: 24px;
 	border-bottom: 1px solid #fed73a;
+	margin-top:  100px;
+	background-size: cover;
+	background-position: bottom;
 }
 
 .footer-first a{
@@ -218,7 +221,7 @@ input, select, button, textarea{
 }
 
 .main-content{
-	padding: 20px;
+	/*padding: 20px;*/
 }
 
 .main-content ul li{
@@ -230,7 +233,7 @@ input, select, button, textarea{
 }
 
 .main-content h4{
-	line-height: 35px;
+	line-height: 50px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }

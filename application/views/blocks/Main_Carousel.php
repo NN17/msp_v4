@@ -7,6 +7,15 @@
 
 <?php if($carousel['type'] == 1):?>
 	<div class="wrapper">
+		<div class="overlay">
+			<div class="text-wrap">
+				<h3 class="text-center mb-3">Our Objectives</h3>
+				<p class="text-justify">
+					To extend the solar power and its related products in Myanmar To provide consultancy service to the peoples from the villages in where there is no electricity availableWelcome to any companies or organisations which keen to corporate with our company.
+				</p>
+				<button class="btn btn-warning mx-auto d-block">Learn More</button>
+			</div>
+		</div>
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
 		  	<?php
@@ -14,7 +23,7 @@
 		      foreach($imgs as $row):
 		    ?>
 		      <div class="carousel-item <?php if($i<1){ echo 'active';}?>">
-		        <img class="d-block w-100" src="<?=$row['path']?>" alt="Ignite Source" id="slide<?=$row['Id']?>">
+		        <img class="d-block w-100" src="<?=$row['path']?>" alt="Ignite Source">
 		      </div>
 		    <?php 
 		      $i++;

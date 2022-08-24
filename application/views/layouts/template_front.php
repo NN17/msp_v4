@@ -8,25 +8,25 @@
 
 	<base href="<?=base_url()?>" />
 	<link rel="shorcut icon" href="asset/system_img/ignite-logo1.png" />
-	<link rel="stylesheet" type="text/css" href="asset/bootstrap4/css/bootstrap.css" />
-	<link rel="stylesheet" type="text/css" href="asset/css/layout.css" />
-	<link rel="stylesheet" type="text/css" href="asset/css/flaticon.css" />
-	<link rel="stylesheet" type="text/css" href="asset/css/font-awesome.css" />
-	<link rel="stylesheet" type="text/css" href="asset/css/layout.css" />
-	<link rel="stylesheet" type="text/css" href="asset/css/style-ignite.css" />
-	<link rel="stylesheet" type="text/css" href="asset/css/style.css" />
-	<link rel="stylesheet" type="text/css" href="asset/css/jquery.datetimepicker.css" />
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap4/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/flaticon.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style-ignite.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.datetimepicker.css" />
 
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/jquery.datetimepicker.js"></script>
-	<script type="text/javascript" src="js/myscript.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.datetimepicker.js"></script>
+	<script type="text/javascript" src="assets/js/myscript.js"></script>
 </head>
 <body>
 	<header>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-2 col-lg-1">
-					<img src="asset/system_img/ignite-logo1.png" class="img-responsive" />
+					<img src="assets/system_img/ignite-logo1.png" class="img-responsive" />
 				</div>
 				<div class="col-sm-8 slogam">
 					Ignite Soruce <span class="text-warning small-font">version 3.0.1</span>
@@ -69,23 +69,23 @@
 				<div class="partner mid-margin">
 					<div class="row">
 						<div class="col-sm-6 col-lg-3 col-xs-6">
-							<img src="asset/system_img/tech_logos/bs.png" />
+							<img src="assets/system_img/tech_logos/bs.png" />
 						</div>
 						<div class="col-sm-6 col-lg-3">
-							<img src="asset/system_img/tech_logos/jquery.png" />
+							<img src="assets/system_img/tech_logos/jquery.png" />
 						</div>
 						<div class="col-sm-6 col-lg-3">
-							<img src="asset/system_img/tech_logos/ci.png" />
+							<img src="assets/system_img/tech_logos/ci.png" />
 						</div>
 						<div class="col-sm-6 col-lg-3">
-							<img src="asset/system_img/tech_logos/admin_lte.png" />
+							<img src="assets/system_img/tech_logos/admin_lte.png" />
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-12 col-lg-8 mid-margin">
 				<div class="content">
-					<img src="asset/system_img/ecm.png" class="img-responsive center-block" />
+					<img src="assets/system_img/ecm.png" class="img-responsive center-block" />
 						<p>
 							<span class="mid-font text-ignite">Ignite Source</span> is the most easy <strong>Content Management System (CMS)</strong> for creating your own website. It is using PHP plat-form and the frame-work of Codeigniter (CI). That can add lots of interesting features like forums, user blogs, OpenID, profiles and more. It's trivial to create a site with social features with Source Ignite.
 						</p>

@@ -23,9 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// $config['base_url'] = 'https://'.$_SERVER['SERVER_NAME'].'/';
+$config['base_url'] = 'https://'.$_SERVER['SERVER_NAME'].'/';
 
-$config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].'/msp_v4/';
+// $config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].'/msp_v4/';
 
 /*
 |--------------------------------------------------------------------------
@@ -370,7 +370,7 @@ $config['encryption_key'] = 'a-z 0-9~%.:_\-';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'mth_session';
+$config['sess_cookie_name'] = 'msp_session';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = sys_get_temp_dir();
 $config['sess_match_ip'] = FALSE;
@@ -441,8 +441,8 @@ $config['global_xss_filtering'] = FALSE;
 | 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
 $config['csrf_protection'] = FALSE;
-$config['csrf_token_name'] = 'csrf_mth';
-$config['csrf_cookie_name'] = 'csrf_cookie_name';
+$config['csrf_token_name'] = 'csrf_msp';
+$config['csrf_cookie_name'] = 'csrf_cookie_msp';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = TRUE;
 $config['csrf_exclude_uris'] = array();

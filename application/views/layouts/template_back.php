@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="adminlte/plugins/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="asset/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" />
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bbootstrap 4 -->
@@ -30,9 +30,9 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="asset/css/style-ignite.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/style-ignite.css" />
 
-  <link rel="shorcut icon" type="text/css" href="asset/system_img/ignite-logo1.png">
+  <link rel="shorcut icon" type="text/css" href="assets/system_img/ignite-logo1.png">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed accent-teal text-sm">
 <div class="wrapper">
@@ -66,7 +66,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="asset/system_img/ignite-logo1.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="assets/system_img/ignite-logo1.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">Ignite Source</span>
     </a>
@@ -136,7 +136,7 @@
 <!-- Bootstrap 4 -->
 <script src="adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- Ck eidtor / finder js -->
-<script src="asset/ckeditor/ckeditor.js"></script>
+<script src="assets/ckeditor/ckeditor.js"></script>
 <!-- ChartJS -->
 <script src="adminlte/plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
@@ -158,7 +158,7 @@
 <!-- AdminLTE App -->
 <script src="adminlte/js/adminlte.js"></script>
 
-<script type="text/javascript" src="asset/js/ignite.js"></script>
+<script type="text/javascript" src="assets/js/ignite.js"></script>
 
 </body>
 </html>

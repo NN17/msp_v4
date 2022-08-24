@@ -1,0 +1,120 @@
+header {
+	background: #002b53 !important;
+	padding-top:  20px;
+	padding-bottom: 20px;
+}
+
+header .logo img{
+	width: 100px;
+}
+
+.msp-nav .nav-item a {
+	color: #002b53;
+	padding: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.msp-nav .nav-item a:hover {
+	color: #fbb91d;
+	background: none;
+}
+
+.overlay {
+	position: absolute;
+	padding: 50px;
+	width: 100%;
+	min-height: 465px;
+	background: #33333375;
+	z-index: 1001;
+	color:  #fff;
+	background-size: cover;
+	clear: both;
+}
+
+.text-wrap {
+	width: 600px;
+	margin: auto;
+	padding: 50px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+.text-wrap h3 {
+	text-transform: uppercase;
+}
+
+.social a {
+	color: #fff;
+}
+
+.vision-mission {
+	background: #bbb;
+}
+
+.dropdown-menu {
+	z-index: 1002 !important;
+	opacity: 0.9;
+}
+
+.dropdown-menu a {
+	padding: 5px 15px !important;
+}
+
+.vision-item {
+	min-height: 275px;
+	padding: 20px;
+	text-align: center;
+	background: #002b53;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.why-solar {
+	padding: 25px;
+	background: #e9f4ff;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer-title {
+	background: #fbb91d;
+	padding: 25px;
+	font-size: 28px;
+	font-weight: bold;
+	position: relative;
+	top: -40px;
+	border-radius: 50px;
+	text-align: center;
+}
+
+.footer-first-left, .footer-first-center, .footer-first-right {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.footer-first-center {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+.summary-img {
+	padding-top: 20px;
+	padding-bottom:  20px;
+}
+
+.summary-img img {
+	width: 300px !important;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: 3px solid #fff;
+}
+
+.content-data {
+	background: #f0f5f9;
+}
+
+.contentView p {
+	line-height: 32px;
+}
