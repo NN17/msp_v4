@@ -87,6 +87,8 @@ header .logo img{
 	top: -40px;
 	border-radius: 50px;
 	text-align: center;
+	border-right: 3px solid #002b53;
+	border-left:  3px solid #002b53;
 }
 
 .footer-first-left, .footer-first-center, .footer-first-right {
@@ -117,4 +119,62 @@ header .logo img{
 
 .contentView p {
 	line-height: 32px;
+}
+
+.contentView table tr td p {
+	line-height:  14px !important;
+	margin-bottom: 0px;
+}
+
+.text-dark-blue {
+	color: #002b53 !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .enterprise-logo {
+  	width: 75px;
+  	margin:  10px;
+  }
+
+  .overlay {
+  	display: none;
+  }
+
+
+  p {
+  	margin-left:  0px !important;
+  }
+
+  img{
+  	max-width: 100% !important;
+  	height: auto !important;
+  }
+}
+
+
+/*Carousel Fade*/
+.carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: 1s;
+ transition-property: opacity;
+}
+
+.carousel-fade  .carousel-item.active,
+.carousel-fade  .carousel-item-next.carousel-item-left,
+.carousel-fade  .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-right {
+ opacity: 0;
+}
+
+.carousel-fade  .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-prev {
+ transform: translateX(0);
+ transform: translate3d(0, 0, 0);
 }

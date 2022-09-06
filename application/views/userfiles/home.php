@@ -14,7 +14,7 @@
 <div class="vision-mission py-5 row mb-5">
 	<div class="container">
 		<div class="row">
-			<div class="col px-3 py-5">
+			<div class="col-md-4 col-12 px-3 py-5">
 				<div class="row">
 					<div class="col-4">
 						<img src="assets/system_img/mission.png" class="mx-auto d-block"/>
@@ -25,7 +25,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col px-3 py-5" style="border-left: 1px solid #fff; border-right: 1px solid #fff;">
+			<div class="col-md-4 col-12 px-3 py-5" style="border-left: 1px solid #fff; border-right: 1px solid #fff;">
 				<div class="row">
 					<div class="col-4">
 						<img src="assets/system_img/vision.png" class="mx-auto d-block" />
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col px-3 py-5">
+			<div class="col-md-4 col-12 px-3 py-5">
 				<div class="row">
 					<div class="col-4">
 						<img src="assets/system_img/value.png" class="mx-auto d-block" />

@@ -852,18 +852,7 @@ class Ignite extends CI_Controller {
 	public function page(){
 
 		$id = $this->uri->segment(2);
-		if (!empty($this->uri->segment(3)) && $this->uri->segment(3) != '~') {
-			if(($this->uri->segment(3) - 5) > 0) {
-				$url = base_url().'page/'.$id.'/';
-			}
-				else{
-
-					$url = base_url().'page/'.$id.'/~';
-				}
-		}
-			else {
-					$url = base_url().'page/'.$id.'/';
-			}
+		
 
 		// ************** Pagination Start **************
 		
@@ -871,7 +860,7 @@ class Ignite extends CI_Controller {
 
 		$this->load->library('pagination');
 
-		$config['base_url'] = $url;
+		$config['base_url'] = base_url().'page/'.$id;
 		$config['total_rows'] = $row;
 		$config['per_page'] = 5;
 		$config['uri_segment'] = 3;
@@ -1003,7 +992,7 @@ class Ignite extends CI_Controller {
 		// loading Ckeditor ..
 		$this->load->library('CKEditor');
 		
-		$this->ckeditor->basePath = base_url().'asset/ckeditor/';
+		$this->ckeditor->basePath = base_url().'assets/ckeditor/';
 		$this->ckeditor->config['toolbar'] =  'Full';
 		$this->ckeditor->config['language'] = 'en';
 		$this->ckeditor->config['font_style'] = 'myanmar';
@@ -1212,7 +1201,12 @@ class Ignite extends CI_Controller {
 			$page_number = $block['relatedLink'];
 		}
 			else {
-				$page_number = $this->input->post('link');
+				if($contentType['relateLink'] > 0){
+					$page_number = $this->input->post('link');
+				}
+					else{
+						$page_number = $contentType['relatedLink'];
+					}
 			}
 
 		$title = $this->input->post('title');
@@ -1255,13 +1249,13 @@ class Ignite extends CI_Controller {
 
 		$this->db->where('Id',$contentId);
 		$this->db->update('content_tbl',$update);
-		redirect('page/'.$page_number.'/~');
+		redirect('page/'.$page_number);
 	}
 
 	public function contentView(){
 		$data['title'] = 'Content View';
 		$data['link'] = 'ignite/contentView';
-		$contentId = $this->uri->segment(3);
+		$contentId = $this->uri->segment(2);
 
 		$data['contentData'] = $this->main_model->get_limit_data('content_tbl','Id',$contentId)->row_array();
 		$layouts = $this->main_model->get_data('layout_tbl');
@@ -1402,7 +1396,7 @@ class Ignite extends CI_Controller {
 		$content = $this->db->get('content_tbl')->result();
 
 		foreach ($content as $row) {
-			$update = str_replace('https://www.beta.myanmarthiha.com', 'https://www.myanmarthiha.com', $row->text);
+			$update = str_replace('http://localhost/msp_v4', 'https://www.beta.myanmarsolarpower.net', $row->text);
 			$arr = array(
 				'text' => $update
 			);

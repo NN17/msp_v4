@@ -55,6 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['home'] = 'ignite/index';
 
+$route['page/(:num)'] = 'ignite/page';
 $route['page/(:num)/(:any)'] = 'ignite/page';
 
 $route['content-type'] = 'ignite/contentType';
@@ -64,6 +65,7 @@ $route['content-edit/:num/:num'] = 'ignite/editContent';
 $route['create-contentType'] = 'ignite/newContentType';
 $route['edit-content-type/:num'] = 'ignite/editContentType';
 $route['update-content-type/:num'] = 'ignite/updateContentType';
+$route['content-detail/:num'] = 'ignite/contentView';
 
 $route['new-block'] = 'ignite/newBlock';
 $route['block-list'] = 'ignite/blockList';

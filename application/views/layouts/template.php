@@ -212,7 +212,7 @@
 
 	<div class="footer-first">
 		<div class="container footer-title">
-			FORWARING EFFICIENT ENERGY BRIDGE!
+			FORWARING EFFICIENT <span class="text-dark-blue">ENERGY</span> BRIDGE <span class="text-dark-blue">!</span>
 		</div>
 		<div class="container py-5">
 			<div class="row">
@@ -246,6 +246,6 @@
 	<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
 	<script type="text/javascript" src="assets/js/pagination.js"></script>
 	<script type="text/javascript" src="assets/js/ignite.js"></script>
-	<script type="text/javascript" src="assets/js/mth.js"></script>
+	<script type="text/javascript" src="assets/js/msp.js"></script>
 </body>
 </html>

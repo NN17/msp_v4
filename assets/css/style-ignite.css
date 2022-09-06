@@ -277,11 +277,11 @@ table th{
 }
 
 table th, table td{
-	font-size: 12px;
+	font-size: 14px;
 }
 
 table tbody tr:nth-child(even){
-	background: #fffbdf;
+	background: #e0e8eb;
 }
 
 table.ignite a{
@@ -605,8 +605,8 @@ option .divided{
 }
 
 .contentView table tr td{
-	padding: 0px 10px 0px 10px !important;
-	line-height: 14px !important;
+	/*padding: 0px 10px 0px 10px !important;*/
+	line-height: 18px !important;
 	vertical-align: middle !important;
 }
 

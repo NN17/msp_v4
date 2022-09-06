@@ -16,7 +16,7 @@
 				<button class="btn btn-warning mx-auto d-block">Learn More</button>
 			</div>
 		</div>
-		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+		<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
 		  <div class="carousel-inner">
 		  	<?php
 		      $i = 0; 
