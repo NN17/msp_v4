@@ -7,6 +7,7 @@
 
 <?php if($carousel['type'] == 1):?>
 	<div class="wrapper">
+		<img src="assets/system_img/overlay.png" class="overlay-img d-block w-100">
 		<div class="overlay">
 			<div class="text-wrap">
 				<h3 class="text-center mb-3">Our Objectives</h3>

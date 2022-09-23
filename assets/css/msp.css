@@ -25,11 +25,16 @@ header .logo img{
 	padding: 50px;
 	width: 100%;
 	min-height: 465px;
-	background: #33333375;
-	z-index: 1001;
+	/*background: #33333375;*/
+	z-index: 1002;
 	color:  #fff;
 	background-size: cover;
 	clear: both;
+}
+
+.overlay-img {
+	position: absolute;
+	z-index: 1001;
 }
 
 .text-wrap {
