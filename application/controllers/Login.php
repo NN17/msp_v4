@@ -36,11 +36,37 @@ class Login extends CI_Controller {
 				'name' => $this->session->userdata('name'),
 			);
 			$this->userlog->create_log($arr);
+
+			set_cookie ("loginId", $this->session->userdata('name'), time()+ (10 * 365 * 24 * 60 * 60));
+
 			redirect('home');
 		}
 			else{
 				$data['err_msg'] = true;
 				$this->load->view('layouts/template_front',$data);
+			}
+	}
+
+	public function loginVerify() {
+		$psw = $this->input->post('psw');
+		$name = $_COOKIE['loginId'];
+
+		$check = $this->main_model->loginState($name,$psw);
+		if($check == true){
+			$arr = array(
+				'username' => $name,
+				'password' => md5($psw),
+				'name' => $this->session->userdata('name'),
+			);
+			$this->userlog->create_log($arr);
+
+			set_cookie ("loginId", $this->session->userdata('name'), time()+ (10 * 365 * 24 * 60 * 60));
+
+			redirect('home');
+		}
+			else{
+				$data['err_msg'] = true;
+				$this->load->view('errors/lockscreen',$data);
 			}
 	}
 }

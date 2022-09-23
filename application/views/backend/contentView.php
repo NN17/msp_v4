@@ -7,7 +7,7 @@
 		</div>
 		<?php endif;?>
 
-		<h3 class='text-center text-info my-3'><?=$contentData['title']?></h3>
+		<h3 class='text-center text-dark-blue my-3'><?=$contentData['title']?></h3>
 		
 		<div class="mt-5"><?=$contentData['text']?></div>
 

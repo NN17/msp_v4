@@ -192,13 +192,13 @@ $(document).ready(function(){
 
 // Base Url Function
 
-function base_url(){
-	return "https://" + location.hostname + "/";
-}
-
 // function base_url(){
-// 	return "http://" + location.hostname + "/msp_v4/";
+// 	return "https://" + location.hostname + "/";
 // }
+
+function base_url(){
+	return "http://" + location.hostname + "/msp_v4/";
+}
 
 
 // **************** Image Preview Function ****************

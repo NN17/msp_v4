@@ -85,3 +85,5 @@ $route['carousel-edit/:num'] = 'ignite/editCarousel';
 $route['layout'] = 'ignite/layout';
 
 $route['setting'] = 'ignite/setting';
+
+$route['login-verify'] = 'login/loginVerify';

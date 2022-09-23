@@ -21,10 +21,14 @@
 <!-- Automatic element centering -->
 <div class="lockscreen-wrapper">
   <div class="lockscreen-logo">
-    <a href="../../index2.html"><b>Ignite</b>Source</a>
+    <a href="https://www.ignitesource.net" target="_blank"><b>Ignite</b>Source</a>
+  </div>
+  <div class="text-center mb-3">
+    <strong>Content Management System</strong>
   </div>
   <!-- User name -->
-  <div class="lockscreen-name">John Doe</div>
+  <div class="lockscreen-name"><?=$_COOKIE['loginId']?></div>
+
 
   <!-- START LOCK SCREEN ITEM -->
   <div class="lockscreen-item">
@@ -35,12 +39,12 @@
     <!-- /.lockscreen-image -->
 
     <!-- lockscreen credentials (contains the form) -->
-    <form class="lockscreen-credentials">
+    <form class="lockscreen-credentials" action="login-verify" method="POST">
       <div class="input-group">
-        <input type="password" class="form-control" placeholder="password">
+        <input type="password" name="psw" class="form-control" placeholder="password">
 
         <div class="input-group-append">
-          <button type="button" class="btn"><i class="fas fa-arrow-right text-muted"></i></button>
+          <button type="submit" class="btn"><i class="fas fa-arrow-right text-muted"></i></button>
         </div>
       </div>
     </form>
@@ -55,7 +59,7 @@
     <a href="login">Or sign in as a different user</a>
   </div>
   <div class="lockscreen-footer text-center">
-    Copyright &copy; 2018 <b><a href="https://ignitesource.com" class="text-black">Ignite Source</a></b><br>
+    Copyright &copy; <?=date('Y')?> <b><a href="https://ignitesource.com" class="text-black">Ignite Source</a></b><br>
     All rights reserved
   </div>
 </div>

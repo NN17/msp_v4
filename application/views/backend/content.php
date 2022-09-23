@@ -35,7 +35,7 @@
 					<h4><?=$contentData['title']?></h4>
 					<?=$contentData['summary']?>
 					<div class="readMore">
-						<a href="content-detail/<?=$contentData['Id']?>" class="btn btn-info mt-5">Read More... <i class="fa fa-chevron-circle-right"></i></a>
+						<a href="content-detail/<?=$contentData['Id']?>" class="btn btn-dark-blue mt-5">Read More... <i class="fa fa-chevron-circle-right"></i></a>
 						<?php if($contentData['showDate']):?>
 							<p class="text-right">
 								<small><i>Published at : <?=date('d-m-Y', $contentData['publishedDate'])?></i></small>

@@ -22,7 +22,7 @@
 				?>
 					<tr>
 						<td class="text-right"><?=$i?></td>
-						<td><a href="ignite/page/<?=$contentData['link']?>"><?=$contentData['title']?></a></td>
+						<td><a href="page/<?=$contentData['link']?>"><?=$contentData['title']?></a></td>
 						<td class="text-center"><?=date('d-m-Y',$contentData['createdDate'])?></td>
 						<td class="text-center"><?php if($contentData['published'] == 1){echo 'Yes';}else{echo 'No';}?></td>
 						<td><?=$this->main_model->link($contentData['link'])?></td>

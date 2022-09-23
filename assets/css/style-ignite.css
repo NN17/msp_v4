@@ -631,6 +631,7 @@ option .divided{
 	margin-right: 2px;
 	display: inline-block;
 	border: 1px solid #e7e7e7;
+	border-radius: 15px;
 }
 
 .my-pagination li:hover{
