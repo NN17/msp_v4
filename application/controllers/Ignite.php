@@ -852,6 +852,13 @@ class Ignite extends CI_Controller {
 	public function page(){
 
 		$id = $this->uri->segment(2);
+
+		if($id == 23 || $id == 24 || $id == 25) {
+			$per_page = 9;
+		}
+			else{
+				$per_page = 5;
+			}
 		
 
 		// ************** Pagination Start **************
@@ -862,7 +869,7 @@ class Ignite extends CI_Controller {
 
 		$config['base_url'] = base_url().'page/'.$id;
 		$config['total_rows'] = $row;
-		$config['per_page'] = 5;
+		$config['per_page'] = $per_page;
 		$config['uri_segment'] = 3;
 
 		$config['cur_tag_open'] = '<li class="active">';
@@ -896,7 +903,7 @@ class Ignite extends CI_Controller {
 			redirect('home');
 		}
 			else{
-				$data['contentDatas'] = $this->main_model->get_limit_datas_pagination('content_tbl','link',$id,'published',true,'title',$start,5)->result_array();
+				$data['contentDatas'] = $this->main_model->get_limit_datas_pagination('content_tbl','link',$id,'published',true,'title',$start,$per_page)->result_array();
 				$layouts = $this->main_model->get_data('layout_tbl');
 				foreach ($layouts as $layout){
 					$block = $this->main_model->check_block($id, $layout['Id']);

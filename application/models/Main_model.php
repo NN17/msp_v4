@@ -656,4 +656,25 @@
 			return $query;
 		}
 
+		function get_front_page_product() {
+			$data = $this->db->query("SELECT * FROM content_tbl
+					WHERE frontPage = true
+					AND published = true
+					AND (link = 11 
+						OR link = 12 
+						OR link = 13
+						OR link = 14
+						OR link = 15
+						OR link = 16
+						OR link = 17
+						OR link = 18
+						OR link = 19
+						OR link = 20
+						OR link = 21
+						OR link = 22)
+					");
+
+			return $data->result_array();
+		}
+
 	}

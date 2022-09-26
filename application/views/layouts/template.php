@@ -45,13 +45,13 @@
 			<div class="social float-right">
 				<ul class="nav">
 					<li class="nav-item">
-						<a href="" class="mx-2"><i class="fa fa-facebook-square fa-2x"></i></a>
+						<a href="https://www.facebook.com/myanmarsolarpowertrading" target="_blank" class="mx-2"><i class="fa fa-facebook-square fa-2x"></i></a>
 					</li>
 					<li class="nav-item">
 						<a href="" class="mx-2"><i class="fa fa-twitter-square fa-2x"></i></a>
 					</li>
 					<li class="nav-item">
-						<a href="" class="mx-2"><i class="fa fa-instagram fa-2x"></i></a>
+						<a href="https://www.instagram.com/msp_myanmarsolarpower" target="_blank" class="mx-2"><i class="fa fa-instagram fa-2x"></i></a>
 					</li>
 				</ul>
 			</div>

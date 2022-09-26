@@ -58,7 +58,7 @@ header .logo img{
 }
 
 .dropdown-menu {
-	z-index: 1002 !important;
+	z-index: 1003 !important;
 	opacity: 0.9;
 }
 
@@ -143,6 +143,72 @@ header .logo img{
 .btn-dark-blue:hover {
 	background: #08447a;
 	color: #fff;
+}
+
+.project {
+	background: #f0f5f9;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 20px;
+}
+
+.summary-text {
+	min-height: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.project-header {
+	min-height:  85px;
+	padding: 15px;
+	background: #002b53;
+	color: #fff;
+	font-size: 18px;
+	border-top-left-radius: 15px;
+}
+
+.imgDiv {
+	width: 280px;
+	height: 200px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.product {
+	background: #f0f5f9;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	padding-bottom: 20px;
+}
+
+.product-header {
+	padding: 15px;
+	background: #FBB91D;
+	color: #fff;
+	font-size: 18px;
+	border-top-left-radius: 15px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.product-body .imgDiv {
+	width: 220px;
+	height: 220px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  border: 2px solid #fff;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 700px) {
