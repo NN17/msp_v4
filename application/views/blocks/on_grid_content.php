@@ -19,7 +19,9 @@
 					<?php endif;?>
 					<div class="project my-3">
 						<div class="project-header text-center">
-							<strong><?=$contentData['title']?></strong>
+							<div class="project-title">
+								<strong><?=$contentData['title']?></strong>
+							</div>
 						</div>
 						<div class="project-body text-center">
 						<?php

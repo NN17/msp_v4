@@ -165,6 +165,13 @@ header .logo img{
 	color: #fff;
 	font-size: 18px;
 	border-top-left-radius: 15px;
+	display: table;
+	width: 100%;
+}
+
+.project-title {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .imgDiv {
