@@ -853,7 +853,7 @@ class Ignite extends CI_Controller {
 
 		$id = $this->uri->segment(2);
 
-		if($id == 23 || $id == 24 || $id == 25 || $id == 26 || $id = 27 || $id == 28 || $id == 29 || $id == 30 || $id == 31) {
+		if($id == 23 || $id == 24 || $id == 25 || $id == 26 || $id == 27 || $id == 28 || $id == 29 || $id == 30 || $id == 31) {
 			$per_page = 9;
 		}
 			else{
